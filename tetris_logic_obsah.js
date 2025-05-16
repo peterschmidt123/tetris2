@@ -88,3 +88,14 @@ function draw() {
   background(220);
   console.log("🔁 draw() cyklus");
 }
+console.log("✅ JS načítaný");
+
+function setup() {
+  createCanvas(300, 400);
+  console.log("🎮 setup() spustený");
+}
+
+function draw() {
+  background(220);
+  console.log("🔁 draw() cyklus");
+}
